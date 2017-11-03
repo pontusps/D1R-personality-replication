@@ -1,0 +1,24 @@
+"x"
+"\begin{table}[!h]
+
+\caption{\label{tab:}Correlations between SocDes, PhTA and D1-R BPND scores from the original (7) and current study. Replication BFs denotes how much evidence there is in favor of the original correlation compared to no correlation. Note that the correlation between PhTA and STR was not significant in the original study but have still been included here for completeness. }
+\centering
+\begin{tabular}[t]{ccccccccc}
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{3}{c}{Original study\textsuperscript{a}} & \multicolumn{3}{c}{Present study \textsuperscript{b}} & \multicolumn{2}{c}{Replication BF} \\
+\cmidrule(l{2pt}r{2pt}){2-4} \cmidrule(l{2pt}r{2pt}){5-7} \cmidrule(l{2pt}r{2pt}){8-9}
+ & r & df & p-value & r & df & p-value & BF01 & BF10\\
+\midrule
+\addlinespace[0.3em]
+\multicolumn{9}{l}{\textbf{SocDes}}\\
+\hspace{1em}STR & 0.54 & 19 & 0.012 & -0.12 & 24 & 0.73 & 12.4 & 0.08\\
+\hspace{1em}LST & 0.52 & 19 & 0.015 & -0.03 & 24 & 0.57 & 7.2 & 0.14\\
+\addlinespace[0.3em]
+\multicolumn{9}{l}{\textbf{PhTA}}\\
+\hspace{1em}STR & -0.36 & 19 & 0.106 & -0.08 & 24 & 0.35 & 2.0 & 0.51\\
+\hspace{1em}LST & -0.51 & 19 & 0.019 & -0.09 & 24 & 0.32 & 3.3 & 0.31\\
+\bottomrule
+\multicolumn{9}{l}{\textsuperscript{a} two-sided test}\\
+\multicolumn{9}{l}{\textsuperscript{b} one-sided test in direction of original study}\\
+\end{tabular}
+\end{table}"

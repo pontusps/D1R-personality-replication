@@ -1,0 +1,5 @@
+"Scale","estimate","statistic","p.value","parameter","conf.low","conf.high","method","alternative"
+"SD_STR",-0.12394492566118,-0.611922119217513,0.726828399767298,24,-0.436226726760325,1,"Pearson's product-moment correlation","greater"
+"SD_LST",-0.0342462884693284,-0.167870333405718,0.565954064258341,24,-0.360304144809543,1,"Pearson's product-moment correlation","greater"
+"PhTA_STR",-0.0799641285234912,-0.393001116246769,0.348893903739861,24,-1,0.256950393158152,"Pearson's product-moment correlation","less"
+"PhTA_LST",-0.0942747369994508,-0.463916183698976,0.32344406453014,24,-1,0.243433014153583,"Pearson's product-moment correlation","less"
