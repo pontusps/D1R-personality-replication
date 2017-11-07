@@ -1,4 +1,3 @@
-"x"
 "\begin{table}[!h]
 
 \caption{\label{tab:}Correlations between SocDes, PhTA and D1-R BPND scores from the original (7) and current study. Replication BFs denotes how much evidence there is in favor of the original correlation compared to no correlation. Note that the correlation between PhTA and STR was not significant in the original study but have still been included here for completeness. }
