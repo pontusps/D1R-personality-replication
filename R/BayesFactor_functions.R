@@ -1,5 +1,5 @@
-###====The script below have been edited by Pontus P. Sigray, Okt 2017, to be compatable with [LINK to repo]
-###====The original script can be found at [LINK]
+###====The script below have been edited by Pontus P. Sigray, Okt 2017, to be compatable with project found on https://github.com/pontusps/D1R-personality-replication 
+###====The original scripts can be found at http://www.josineverhagen.com/wp-content/uploads/2013/07/RepfunctionscorrelationFINAL1.txt 
 
 ###############################################################################
 ### Compute Bayes factors after a replication study for correlations 
