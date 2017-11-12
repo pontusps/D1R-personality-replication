@@ -1,4 +1,4 @@
-###====The script below have been edited by Pontus P. Sigray, Okt 2017, to be compatable with project found on https://github.com/pontusps/D1R-personality-replication 
+###====The script below have been edited by Pontus P. Sigray, October 2017, to be compatible with the project found on https://github.com/pontusps/D1R-personality-replication 
 ###====The original scripts can be found at http://www.josineverhagen.com/wp-content/uploads/2013/07/RepfunctionscorrelationFINAL1.txt 
 
 ###############################################################################
@@ -18,31 +18,6 @@
 ###Required packages
 library(hypergeo)
 
-
-#In this file: 
-# Replication test
-# CorrelationReplicationBF : This function will calculate the Replication Bayes factor (Verhagen & Wagenmakers, 2014) for correlations
-# corBF.beta: JZS Bayes Factor
-# corBF.beta.1s : one-sided JZS Bayes Factor
-
-#Supporting functions:
-#PosteriorRho : Posterior for the correlation coefficient #Jeffreys (1961), p. 175, but normalized 
-#LLrho :  p(rho|r,n)  
-
-# Plotting functions: 
-#repposteriorplot: 
-# This function will plot the posterior when the posterior of the original study is used as prior distribution
-# for the effect size in a replicated study. Also the outcome of a Savage Dickey density ratio 
-#(Verdinelli & Wasserman, 1995) is given based on the height of the prior and posterior at H0: rho= 0. 
-
-
-#posteriorplotBeta11 : 
-#This function will plot the posterior when a uniform distribution is used as prior distribution.
-#Also the outcome of a Savage Dickey density ratio (Verdinelli & Wasserman, 1995) is given based on the height of
-#the prior and posterior at H0: rho= 0. One sided or two-sided. 
-
-#repposteriorplot2 and posteriorplotBeta112 provide possibilities to plot multiple
-# plots in a windows, removing axis labels for the inner plots (la = , lg = ) 
 
 # Replication test 
 CorrelationReplicationBF = function(r.orig, n.orig, r.rep, n.rep)
