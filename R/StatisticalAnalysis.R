@@ -92,7 +92,7 @@ Table1<-kable(Table1,
       align = 'c',
       format = "latex", 
       booktabs = T,  
-      caption = "Correlations between SocDes, PhTA and D1-R BPND scores from the original (7) and current study. Replication BFs denotes how much evidence there is in favor of the original correlation compared to no correlation. Note that the correlation between PhTA and STR was not significant in the original study but have still been included here for completeness. ") %>%
+      caption = "Correlations between SocDes, PhTA and D1-R BPND scores from the original and current study. Replication BFs denotes how much evidence there is in favor of the original correlation compared to no correlation. Note that the correlation between PhTA and STR was not significant in the original study but have still been included here for completeness. ") %>%
   group_rows("SocDes", 1, 2) %>%
   group_rows("PhTA", 3, 4) %>%
   kable_styling(latex_options = c("hold_position"),
