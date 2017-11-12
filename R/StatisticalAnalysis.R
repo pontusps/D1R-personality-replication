@@ -1,10 +1,13 @@
 
+### Script to reproduce the project found on https://github.com/pontusps/D1R-personality-replication  ### 
+### Script to be run from parent folder (i.e. from github: './D1R-personality-replication')           ###
+### // Pontus P. Sigray, Karolinska Institutet, November 2017.                                        ###
+
 #Load packages and source functions 
-library(xlsx)
 source('./R/BayesFactor_functions.R')
 library(tidyverse)
 
-# Read in dataframe with SSP and BPND sheets
+# Read in dataframe with SSP and BPND columns
 SSPBPNDtidy <- read.csv(file = './DerivedData/AllData.csv')
 
 ############################# 
@@ -73,8 +76,6 @@ Table1<-data.frame( Scale = c('SocDes','SocDes','PhTA','PhTA'),
 
 library(knitr)
 library(kableExtra)
-library(xlsx)
-library(dplyr)
 
 Table1 <- Table1 %>%
   select(-Scale)
