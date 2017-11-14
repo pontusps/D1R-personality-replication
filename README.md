@@ -3,6 +3,8 @@ Data and code for the study examining replicability of correlations between [11C
 
 Link to BioRxiv pre-print: https://www.biorxiv.org/content/early/2017/11/13/218420
 
+Link to OSF: https://osf.io/te5q7/
+
 Link to original study (behind pay-wall): http://www.sciencedirect.com/science/article/pii/S105381191400679X
 
 
